@@ -1,0 +1,2 @@
+-- Seed data is intentionally empty. The API uses a deterministic local demo user id
+-- and creates runs from the Web UI or curl without inserting auth users into auth.users.

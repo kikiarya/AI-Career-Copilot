@@ -1,0 +1,17 @@
+{
+  "name": "ai-career-copilot",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev": "concurrently -k \"pnpm dev:api\" \"pnpm dev:worker\" \"pnpm dev:web\"",
+    "dev:api": "pnpm --filter @copilot/api dev",
+    "dev:worker": "pnpm --filter @copilot/worker dev",
+    "dev:web": "pnpm --filter @copilot/web dev",
+    "check": "pnpm --filter @copilot/contracts --filter @copilot/persistence --filter @copilot/api --filter @copilot/worker --filter @copilot/web run check",
+    "test": "pnpm --filter @copilot/contracts --filter @copilot/persistence --filter @copilot/api --filter @copilot/worker --filter @copilot/web run test"
+  },
+  "devDependencies": {
+    "concurrently": "9.1.2"
+  }
+}
