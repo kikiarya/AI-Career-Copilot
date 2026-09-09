@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@copilot/contracts": "workspace:*",
+    "@copilot/model-gateway": "workspace:*",
     "@copilot/persistence": "workspace:*",
     "dotenv": "16.6.1"
   }

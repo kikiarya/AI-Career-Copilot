@@ -8,8 +8,8 @@
     "dev:api": "pnpm --filter @copilot/api dev",
     "dev:worker": "pnpm --filter @copilot/worker dev",
     "dev:web": "pnpm --filter @copilot/web dev",
-    "check": "pnpm --filter @copilot/contracts --filter @copilot/persistence --filter @copilot/api --filter @copilot/worker --filter @copilot/web run check",
-    "test": "pnpm --filter @copilot/contracts --filter @copilot/persistence --filter @copilot/api --filter @copilot/worker --filter @copilot/web run test"
+    "check": "pnpm --filter @copilot/contracts --filter @copilot/persistence --filter @copilot/model-gateway --filter @copilot/api --filter @copilot/worker --filter @copilot/web run check",
+    "test": "pnpm --filter @copilot/contracts --filter @copilot/persistence --filter @copilot/model-gateway --filter @copilot/api --filter @copilot/worker --filter @copilot/web run test"
   },
   "devDependencies": {
     "concurrently": "9.1.2"
